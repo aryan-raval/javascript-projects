@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: darkslategrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    background-color: white;
+    margin-top: 40px;
+    border-radius: 10px;
+    padding: 40px 30px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px;
+}
+
+.instruction{
+    padding: 10x;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+}
+
+.gameBox{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+#userInput{
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: rgb(157, 231, 231);
+}
+
+#submit{
+    background-color: darkslategrey;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+
+#submit:hover{
+    background-color: rgb(78, 108, 108);
+}
+
+.msgContainer{
+    
+    padding: 15px;
+    font-size: 15px;
+    background-color: darkslategrey;
+    color: white;
+    border-radius: 10px;
+
+}
+
+p{
+    margin:5px auto;
+}
+
+main .msgContainer .message{
+   
+    margin-top: 30px;
+    font-size: 20px;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+
+.btn-newGame{
+    
+    padding: 10px;
+    cursor: pointer;
+    background-color: lightgreen;
+    color: black;
+    border-radius: 10px;
+    margin-top: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-newGame:hover{
+    background-color: rgb(82, 242, 82);
+}
